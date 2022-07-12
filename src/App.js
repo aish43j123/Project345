@@ -139,7 +139,7 @@ function App() {
         </div>
         <div class="cn">
           NewUser?
-          <Button type="primary" onClick={showModal} className="cancelbtn" style={{ background: "white", color:"blue", borderColor:"white" }}>
+          <Button type="primary" onClick={showModal} className="cancelbtn" style={{ background: "white", color:"blue", borderColor:"white",display:"inline-flex",padding:"4px" }}>
         Register
       </Button>
       <Modal title="" visible={isModalVisible}  onCancel={handleCancel} okButtonProps={{
@@ -214,9 +214,9 @@ function App() {
             Register
           </button> */}
             
-      <button class="psw" onClick={setOpen1}>
+      <Button className="psw" onClick={setOpen1} style={{ background: "white", color:"blue", borderColor:"white",margin:0,display:"inline-flex",padding:0 }} >
             <Password/>
-          </button>
+          </Button>
         </div>
       </form>
     </div>

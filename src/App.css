@@ -74,7 +74,7 @@ button:hover {
   text-align:center;
 }
 
-.cancelbtn {
+/* .cancelbtn {
   width: auto;
   padding: 10px 18px;
   background: linear-gradient(-135deg, hsl(304, 52%, 55%), #4158d0);
@@ -82,13 +82,13 @@ button:hover {
   color: #f1f1f1;
   border-color: linear-gradient(-135deg, #c850c0, #4158d0);
   cursor:pointer;
-}
+} */
 .cc{
   padding: 18px;
 }
-Button{
+/* Button{
   background: #01d28e;
-}
+} */
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
@@ -102,12 +102,13 @@ img.avatar {
 .container {
   
   width:25%;
- margin-left:700px;
+ margin-left:37%;
  border: 1px solid #f1f1f1;
  border-top: #fff;
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
-margin-top:200px;
+margin-top:10%;
+
 box-shadow: 0 4px 8px 0 rgba(153, 147, 147, 0.2), 0 6px 20px 0 rgba(202, 194, 194, 0.19);
 }
 .container2 {
@@ -131,8 +132,9 @@ margin:10px;
 .cn{
   padding: 19px;
   width:25%;
+  margin-bottom:10%;
   background:white;
- margin-left:700px;
+ margin-left:37%;
  border: 1px solid #f1f1f1; 
  border-bottom-right-radius: 25px;
  border-bottom-left-radius: 25px;
@@ -151,8 +153,8 @@ margin:10px;
 }
 .psw {
   float: right;
-  /* padding: 3px;
-  margin-top:2px; */
+  
+  
   cursor: pointer;
   background: white;
   color: blue;
